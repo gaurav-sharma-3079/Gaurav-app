@@ -1,4 +1,4 @@
-Updated README file
+
 class Animal
 {
     public void Eat()
@@ -20,7 +20,7 @@ class Program
     static void Main(string[] args)
     {
         Dog myDog = new Dog();
-        myDog.Eat();  // Calling method from base class
+        myDog.Eat();  // Calling method from base class -----
         myDog.Bark(); // Calling method from derived class
     }
 }

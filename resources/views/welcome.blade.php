@@ -13,7 +13,7 @@
     <body>
         <div>
             <h1>Hello World!</h1>
-            <h2>This is a laravel project.</h2>
+            <h2>This is a practice project.</h2>
         </div>
     </body>
 </html>
