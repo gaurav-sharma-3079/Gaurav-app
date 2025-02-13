@@ -1,37 +1,26 @@
-```markdown
-# Table of a Given Number
+Updated README file
+class Animal
+{
+    public void Eat()
+    {
+        Console.WriteLine("Eating...");
+    }
+}
 
-This program prints the multiplication table of a given number.
-
-## C# Code
-
-```csharp
-using System;
+class Dog : Animal
+{
+    public void Bark()
+    {
+        Console.WriteLine("Barking...");
+    }
+}
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Console.Write("Enter a number: ");
-        int number = int.Parse(Console.ReadLine());
-
-        Console.WriteLine($"Multiplication table for {number}:");
-        for (int i = 1; i <= 10; i++)
-        {
-            Console.WriteLine($"{number} x {i} = {number * i}");
-        }
+        Dog myDog = new Dog();
+        myDog.Eat();  // Calling method from base class
+        myDog.Bark(); // Calling method from derived class
     }
 }
-```
-
-## How to Run
-
-1. Copy the code into a file named `Program.cs`.
-2. Open a terminal and navigate to the directory containing `Program.cs`.
-3. Run the following commands:
-    ```sh
-    csc Program.cs
-    ./Program.exe
-    ```
-4. Enter a number when prompted to see its multiplication table.
-```
