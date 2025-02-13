@@ -1,4 +1,4 @@
-```markdown
+markdown
 # General Hospital Management System Flowchart
 
 ```mermaid
@@ -12,5 +12,3 @@ graph TD;
     G --> H[Discharge]
     H --> I[Follow-up]
     I --> J[End]
-```
-```
