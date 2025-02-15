@@ -1,26 +1,29 @@
+Updated README file
+```java
+public class Person {
+    private String name;
+    private int age;
 
-class Animal
-{
-    public void Eat()
-    {
-        Console.WriteLine("Eating...");
+    // Getter method for name
+    public String getName() {
+        return name;
+    }
+
+    // Setter method for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter method for age
+    public int getAge() {
+        return age;
+    }
+
+    // Setter method for age
+    public void setAge(int age) {
+        if (age > 0) {
+            this.age = age;
+        }
     }
 }
-
-class Dog : Animal
-{
-    public void Bark()
-    {
-        Console.WriteLine("Barking...");
-    }
-}
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        Dog myDog = new Dog();
-        myDog.Eat();  // Calling method from base class -----
-        myDog.Bark(); // Calling method from derived class
-    }
-}
+```
